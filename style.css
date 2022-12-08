@@ -84,3 +84,45 @@ body {
   padding: .875rem;
   cursor: pointer;
 }
+
+.classification .submit:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.thank-you {
+  display: none;
+  width: 95%;
+  max-width: 400px;
+  flex-direction: column;
+  margin: 9rem auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.thank-you .feedback {
+  font-size: 1rem;
+  background-color: hsl(213, 17%, 23%);
+  color:hsl(25, 97%, 63%) ;
+  border-radius: 2.5rem;
+  width: 180px;
+  padding: .5rem 1rem ;
+  margin:1rem auto;
+}
+
+.thank-you h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  margin: 1.2rem auto .5rem auto;
+}
+
+.thank-you .description {
+  color: hsl(216, 5%, 50%);
+  font-weight: 400;
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: .5rem;
+}
